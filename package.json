@@ -1,0 +1,47 @@
+{
+  "name": "vue-globalized",
+  "version": "0.1.0",
+  "description": "Internationalization and localization plugin for Vue.js using Globalize.js.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "clean": "rm -Rf ./dist",
+    "prebuild": "npm run clean; mkdir -p ./dist",
+    "build": "babel ./src --out-dir ./dist --copy-files",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xpepermint/vue-globalized.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xpepermint/vue-globalized/issues"
+  },
+  "homepage": "https://github.com/xpepermint/vue-globalized#readme",
+  "keywords": [
+    "i18n",
+    "l10n",
+    "cldr",
+    "globalize",
+    "globalized",
+    "translate",
+    "translation",
+    "locale",
+    "localize",
+    "localized",
+    "localization",
+    "international",
+    "internationalize",
+    "internationalization",
+    "lang",
+    "language",
+    "parse",
+    "format",
+    "vue",
+    "vue.js"
+  ],
+  "author": "Kristijan Sedlak (Xpepermint)",
+  "license": "MIT",
+  "peerDependencies": {
+    "globalize": "^1.1.2"
+  }
+}
