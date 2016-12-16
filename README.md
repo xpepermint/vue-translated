@@ -48,7 +48,7 @@ Attach the `i18n` instance to your Vue.js application.
 
 ```js
 const app = new Vue({
-  i18n, // injecting context into child components
+  i18n, // injecting i18n into child components
   ...
 });
 ```
