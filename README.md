@@ -1,3 +1,5 @@
+[![NPM Version](https://badge.fury.io/js/vue-translated.svg)](https://badge.fury.io/js/vue-translated)&nbsp;[![Dependency Status](https://gemnasium.com/xpepermint/vue-translated.svg)](https://gemnasium.com/xpepermint/vue-translated)
+
 # [vue](https://vuejs.org)-[translated](https://github.com/xpepermint/translatedjs)
 
 > Internationalization (i18n) and localization (l10n) library for Vue.js v2.
