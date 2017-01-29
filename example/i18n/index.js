@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import {I18n} from 'translated';
-import VueTranslated from '../../../dist';
+import VueTranslated from '../../dist';
 
 Vue.use(VueTranslated);
 

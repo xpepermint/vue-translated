@@ -1,14 +1,13 @@
 {
   "name": "vue-translated",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Internationalization (i18n) and localization (l10n) plugin for Vue.js v2.",
   "main": "./dist/index.js",
   "scripts": {
     "clean": "rm -Rf ./dist",
-    "prebuild": "npm run clean; mkdir -p ./dist",
-    "build": "babel ./src --out-dir ./dist --copy-files",
+    "build": "npm run clean; vue build src/index.js --prod --lib --config vue.config.js",
     "prepublish": "npm run build",
-    "example": "npm run build; NODE_ENV=production webpack-dev-server --content-base ./example --quiet"
+    "example": "vue build example/index.js"
   },
   "repository": {
     "type": "git",
@@ -52,16 +51,9 @@
     "translated": "^0.3.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.18.0",
-    "babel-core": "^6.18.2",
-    "babel-loader": "^6.2.8",
-    "babel-preset-latest": "^6.16.0",
-    "css-loader": "^0.26.1",
-    "translated": "^0.3.0",
-    "vue": "^2.1.6",
-    "vue-loader": "^10.0.2",
-    "vue-template-compiler": "^2.1.6",
-    "webpack": "^2.1.0-beta.27",
-    "webpack-dev-server": "^2.1.0-beta.12"
+    "translated": "0.3.0",
+    "vue": "2.1.10",
+    "vue-loader": "10.1.2",
+    "vue-template-compiler": "2.1.10"
   }
 }
